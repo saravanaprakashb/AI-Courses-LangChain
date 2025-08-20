@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 langchain = "*"
 langchain-openai = "*"
+langchain-deepseek = "*"
 
 [dev-packages]
 
