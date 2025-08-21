@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "52bb115b21c0fbb6da5010439e9c4cd063747490f4974202ff923074284e3894"
+            "sha256": "a81d7fb81f677aaf57f5d31dbf15c4599e0111f30df3a153dbd483029fd7b251"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -201,6 +201,14 @@
             "markers": "python_version >= '3.9'",
             "version": "==3.2.4"
         },
+        "groq": {
+            "hashes": [
+                "sha256:182252e9bf0d696df607c137cbafa851d2c84aaf94bcfe9165c0bc231043490c",
+                "sha256:5e3c7ec9728b7cccf913da982a9b5ebb46dc18a070b35e12a3d6a1e12d6b0f7f"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==0.31.0"
+        },
         "h11": {
             "hashes": [
                 "sha256:4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1",
@@ -358,6 +366,15 @@
             "markers": "python_version >= '3.9'",
             "version": "==0.1.4"
         },
+        "langchain-groq": {
+            "hashes": [
+                "sha256:2e13870534c032fe1facde3a6ab1fb59af6f1e7a2763125ad549d8e403fc9d00",
+                "sha256:4d799aa565f31e51c632f0f20c588f21c5a0e6c6dd2303efaef43351f9b41bd4"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==0.3.7"
+        },
         "langchain-openai": {
             "hashes": [
                 "sha256:280f1f31004393228e3f75ff8353b1aae86bbc282abc7890a05beb5f43b89923",
@@ -377,11 +394,11 @@
         },
         "langsmith": {
             "hashes": [
-                "sha256:4d29c7a9c85b20ba813ab9c855407bccdf5eb4f397f512ffa89959b2a2cb83ed",
-                "sha256:b6d070ac425196947d2a98126fb0e35f3b8c001a2e6e5b7049dd1c56f0767d0b"
+                "sha256:633719f9fdafe4297459b0ab442f536d6c0734b36c186ded67343d335e5ea0b3",
+                "sha256:c9a4ec4b7b0f5f70e7be204ee9c5b17db872cc3015cd04851e2703a0966b9ff1"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==0.4.14"
+            "version": "==0.4.15"
         },
         "openai": {
             "hashes": [

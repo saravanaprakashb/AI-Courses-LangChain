@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 #from langchain_openai import ChatOpenAI
-from langchain_deepseek import ChatDeepSeek
+#from langchain_deepseek import ChatDeepSeek
+from langchain_groq import ChatGroq
 
 import os
 
@@ -26,7 +27,8 @@ if __name__ == "__main__":
         input_variables=["information_parameter"], template=summary_template)
     
     #llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
-    llm = ChatDeepSeek(model="deepseek-chat", temperature=0)
+    #llm = ChatDeepSeek(model="deepseek-chat", temperature=0)
+    llm = ChatGroq(model="deepseek-r1-distill-llama-70b", temperature=0)
 
     chain = summary_prompt_template | llm
 
